@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+spring:
+  cache:
+    cache-names: hello
+    caffeine:
+      spec: maximumSize=500, expireAfterAccess=30s, recordStats
+
