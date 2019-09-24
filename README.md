@@ -11,7 +11,7 @@ Grafana에서 Explore를 통해 [PromQL](https://prometheus.io/docs/prometheus/l
 
 1. Spring Boot 실행
 ```sh
-./gradlew
+./gradlew bootRun
 ```
 
 2. Local DashBoard를 띄우기 위한 docker-compose 실행
